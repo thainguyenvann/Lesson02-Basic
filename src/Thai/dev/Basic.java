@@ -1,32 +1,31 @@
 package Thai.dev;
-import java.util.*;
+
 public class Basic {
 	
 		
-		 public static void main(String[] args) {
-			 int a, b;
-			 
-		        Scanner sc = new Scanner(System.in);
-		        System.out.print("a = ");
-		        a = sc.nextInt();
-	            System.out.print("b = ");
-	            b = sc.nextInt();
-	        
-	        
-	        int tong = a + b;
-	        System.out.println(a + " + " + b + " = " + tong); 
-	        
-	        int hieu = a - b;
-	        System.out.println(a + " - " + b + " = " + hieu);  
-	        
-	        int tich = a * b ;
-	        System.out.println(a + " * " + b + " = " + tich);	
-	        
-	        int thuong = a / b ;
-	        System.out.println(a + " / " + b + " = " + thuong);	
-	        
-	        
-	        
-	    }
-	}
+	public static void main(String args[]){
+	      
+		 char n = '7';
+	      switch(n)
+	      {
+	         case '0' : System.out.println("zero!"); break;
+	         case '1' : System.out.println("one!"); break;
+	         case '2' : System.out.println("two!"); break;
+	         case '3' : System.out.println("three!"); break;
+	         case '4' : System.out.println("four!"); break;
+	         case '5' : System.out.println("five!"); break;
+	         case '6' : System.out.println("six!"); break;
+	         case '7' : System.out.println("seven!"); break;
+	         case '8' : System.out.println("eight!"); break;
+	         case '9' : System.out.println("nine!"); break;
 
+	         default :
+	            System.out.println("khong co");
+	      }
+	      System.out.println("Tu tieng anh nam o vi tri la " + n);
+	}
+}
+	
+	        
+	        
+	
